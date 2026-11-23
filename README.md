@@ -17,6 +17,20 @@ The 16 features describe the size and shape of each bean: Area, Perimeter, Major
 
 This dataset meets the assignment requirements. It has more than 12 features and 1,000 rows. It also has seven target classes. The notebook checks the class counts and plots the class distribution.
 
+### Class Imbalance
+
+The target variable is **not evenly distributed** across the seven bean varities
+
+- DERMASON has 3,546 instances.
+- SIRA has 2,636 instances.
+- SEKER has 2,027 instances.
+- HOROZ has 1,860 instances.
+- CALI has 1,630 instances.
+- BARBUNYA has 1,322 instances.
+- BOMBAY has 522 instances.
+
+DERMASON is the largest class, while BOMBAY is the smallest.
+
 ## 3. GitHub Repository
 
 **Repository URL:** [ML Assignment 2 - Github Repo Link](https://github.com/2026ct05143/ML_Assignment_2).
