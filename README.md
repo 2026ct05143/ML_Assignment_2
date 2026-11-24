@@ -17,10 +17,7 @@ The 16 features describe the size and shape of each bean: Area, Perimeter, Major
 
 This dataset meets the assignment requirements. It has more than 12 features and 1,000 rows. It also has seven target classes. The notebook checks the class counts and plots the class distribution.
 
-### Class Imbalance
-
-The target variable is **not evenly distributed** across the seven bean varities
-
+- **Class Imbalance**: The target variable is **not evenly distributed** across the seven bean varities
 - DERMASON has 3,546 instances.
 - SIRA has 2,636 instances.
 - SEKER has 2,027 instances.
@@ -102,8 +99,6 @@ The notebook reports six metrics for each model. It uses macro averaging for AUC
 
 ### Comparison Table
 
-The table shows the results from the notebook run. Scores are rounded to four decimal places.
-
 | ML Model Name            | Accuracy |    AUC | Precision | Recall | F1 Score |    MCC |
 | ------------------------ | -------: | -----: | --------: | -----: | -------: | -----: |
 | Logistic Regression      |   0.9195 | 0.9947 |    0.9311 | 0.9303 |   0.9306 | 0.9028 |
@@ -114,64 +109,17 @@ The table shows the results from the notebook run. Scores are rounded to four de
 
 ### Graph Representation
 
-The notebook has one graph for each required metric: Accuracy, AUC, Precision, Recall, F1 Score, and MCC. It also shows the class distribution, confusion matrices, and ROC curves for all five models. Each ROC curve shows its macro AUC.
+The notebook has one graph for each required metric: Accuracy, AUC, Precision, Recall, F1 Score, and MCC.
+
 ![alt text](output_images/output.png) ![alt text](output_images/output1.png) ![alt text](output_images/output2.png) ![alt text](output_images/output3.png) ![alt text](output_images/output4.png) ![alt text](output_images/output5.png) ![alt text](output_images/output6.png)
 
 ### Model Observations
 
-| ML Model Name            | Observation                                                                                                                       |
-| ------------------------ | --------------------------------------------------------------------------------------------------------------------------------- |
-| Logistic Regression      | It has the highest Accuracy, AUC, Precision, Recall, F1 Score, and MCC in this test run.                                          |
-| Decision Tree            | It has the lowest scores in this comparison. Its AUC and F1 Score are the lowest.                                                 |
-| KNN                      | It has the second-highest Accuracy and F1 Score. Its results are close to Logistic Regression and Random Forest.                  |
-| Naive Bayes              | Its AUC is high. Its other scores are lower than those of Logistic Regression, KNN, and Random Forest.                            |
-| Random Forest (Ensemble) | Its scores are close to Logistic Regression and KNN. Its Accuracy, F1 Score, and MCC are slightly lower than Logistic Regression. |
-
-### Overall Best Model
-
-**Logistic Regression** is the best by macro F1 Score. Its F1 Score is **0.9306**. It also has the highest MCC, at **0.9028**. This result is for one train-test split.
-
-## 5. BITS Virtual Lab Screenshot
-![alt text](output_images/image.png)
-![alt text](output_images/image-1.png)
-![alt text](output_images/image-2.png)
-![alt text](output_images/image-3.png)
-![alt text](output_images/image-4.png)
-![alt text](output_images/image-5.png)
-![alt text](output_images/image-6.png)
-![alt text](output_images/image-7.png)
-![alt text](output_images/image-8.png)
-![alt text](output_images/image-9.png)
-![alt text](output_images/image-10.png)
-![alt text](output_images/image-11.png)
-![alt text](output_images/image-12.png)
-![alt text](output_images/image-13.png)
-![alt text](output_images/image-14.png)
-![alt text](output_images/image-15.png)
-![alt text](output_images/image-16.png)
-![alt text](output_images/image-17.png)
-![alt text](output_images/image-18.png)
-![alt text](output_images/image-19.png)
-![alt text](output_images/image-20.png)
-![alt text](output_images/image-21.png)
-![alt text](output_images/image-22.png)
-![alt text](output_images/image-23.png)
-![alt text](output_images/image-24.png)
-![alt text](output_images/image-25.png)
-![alt text](output_images/image-26.png)
-![alt text](output_images/image-27.png)
-![alt text](output_images/image-28.png)
-![alt text](output_images/image-29.png)
-![alt text](output_images/image-30.png)
-![alt text](output_images/image-31.png)
-![alt text](output_images/image-32.png)
-![alt text](output_images/image-33.png)
-![alt text](output_images/image-34.png)
-![alt text](output_images/image-35.png)
-![alt text](output_images/image-36.png)
-![alt text](output_images/image-37.png)
-![alt text](output_images/image-38.png)
-![alt text](output_images/image-39.png)
-![alt text](output_images/image-40.png)
-![alt text](output_images/image-41.png)
-![alt text](output_images/image-42.png)
+| ML Model Name                    | Observation                                                                                                                                                             |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logistic Regression              | It has the highest Accuracy, AUC, Precision, Recall, F1 Score, and MCC in this test run.                                                                                |
+| Decision Tree                    | It has the lowest scores in this comparison. Its AUC and F1 Score are the lowest.                                                                                       |
+| KNN                              | It has the second-highest Accuracy and F1 Score. Its results are close to Logistic Regression and Random Forest.                                                        |
+| Naive Bayes                      | Its AUC is high. Its other scores are lower than those of Logistic Regression, KNN, and Random Forest.                                                                  |
+| Random Forest (Ensemble)         | Its scores are close to Logistic Regression and KNN. Its Accuracy, F1 Score, and MCC are slightly lower than Logistic Regression.                                       |
+| Overall Winner for your dataset? | **Logistic Regression** is the best by macro F1 Score. Its F1 Score is **0.9306**. It also has the highest MCC, at **0.9028**. This result is for one train-test split. |
