@@ -10,7 +10,7 @@ This is mainly helpful for bean seperation and identification in Agriculture and
 - **Dataset:** Dry Bean Dataset
 - **Source:** [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/602/dry+bean+dataset)
 - **Original data:** 13,611 rows, 16 numerical input features, and one target column.
-- **Used data (Actual Data):** 13,543 rows, 68 duplicate rows have been removed
+- **Cleaned data (Used Data):** 13,543 rows, 68 duplicate rows have been removed
 - **Target:** `Class`, the dry bean variety.
 - **Classes:** BARBUNYA, BOMBAY, CALI, DERMASON, HOROZ, SEKER, and SIRA.
 
