@@ -116,14 +116,14 @@ The notebook has one graph for each required metric: Accuracy, AUC, Precision, R
 
 ### Model Observations
 
-| ML Model Name                    | Observation                                                                                                                                                                                                                  |
-| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Logistic Regression              | It has the highest Accuracy, AUC, Precision, Recall, F1 Score, and MCC in this test run mainly 91.95% Accuracy and 0.9306 F1 Score. It has demonstrated well balanced, consistent classification across 7 bean varieties     |
-| Decision Tree                    | It has the lowest scores in this comparison with 88.85% Accuracy and 0.9013 F1 Score. It shows single tree gives lower classification effectiveness on this dataset.                                                         |
-| KNN                              | It has the second-highest Accuracy 91.55% and 0.9270 F1 Score. Its results are close to Logistic Regression and Random Forest. Effective classification on distance related predictions.                                     |
-| Naive Bayes                      | Its AUC is high. Its other scores are lower than those of Logistic Regression, KNN, and Random Forest. On the morphological data’s it’s conditional independence limits performance.                                         |
-| Random Forest (Ensemble)         | Its scores are close to Logistic Regression and KNN. Its Accuracy – 91.73%, F1 Score – 0.9290, and MCC are slightly lower than Logistic Regression. Ensemble approach gives better classification performance comparatively. |
-| Overall Winner for your dataset? | **Logistic Regression** is the best by macro F1 Score. Accuracy (0.9195), macro-AUC (0.9947), F1 Score (0.9306), and MCC (0.9028).                                                                                           |
+| ML Model Name                    | Observation                                                                                                                                                                                                                                    |
+| -------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Logistic Regression              | It has the highest Accuracy, AUC, Precision, Recall, F1 Score, and MCC in this test run mainly 91.95% Accuracy and 0.9306 F1 Score. It has demonstrated well balanced, consistent classification across 7 bean varieties                       |
+| Decision Tree                    | It has the lowest scores in this comparison with 88.85% Accuracy and 0.9013 F1 Score. It shows single tree gives lower classification effectiveness on this dataset.                                                                           |
+| KNN                              | It has the third-highest Accuracy 91.55% and 0.9270 F1 Score. Its results are close to Logistic Regression and Random Forest. Effective classification on distance related predictions.                                                        |
+| Naive Bayes                      | Its AUC is high. Its other scores are lower than those of Logistic Regression, KNN, and Random Forest. On the morphological data’s it’s conditional independence limits performance.                                                           |
+| Random Forest (Ensemble)         | Its scores are close to Logistic Regression and KNN. It has second-highest Accuracy – 91.73%, F1 Score – 0.9290, and MCC are slightly lower than Logistic Regression. Ensemble approach gives better classification performance comparatively. |
+| Overall Winner for your dataset? | **Logistic Regression** is the best by macro F1 Score. Accuracy (0.9195), macro-AUC (0.9947), F1 Score (0.9306), and MCC (0.9028).                                                                                                             |
 
 It also has the highest MCC, at 0.9028. This result is for one train-test split and best among all the evaluated models.
 |
