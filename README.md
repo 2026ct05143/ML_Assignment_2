@@ -36,7 +36,7 @@ DERMASON is the largest class, while BOMBAY is the smallest.
 ### Files
 
 ```text
-ML_Assignment/
+ML_Assignment_2/
 |-- Dry_Bean_Dataset.csv
 |-- README.md
 |-- requirements.txt
